@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                background-color: rgb(218, 216, 216);
+            }
+            .not_card{
+                position: fixed;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                background-color: rgb(255, 255, 255);
+                border-radius: 10px;
+                top: 80%;
+                left: 90%;
+                padding: 10px;
+                width: 250px;
+                -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+                -moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+                box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+            }
+            .close-btn{
+                position: fixed;
+                display: flex;
+                right: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2> Cabeçalho </h2>
+        </header>
+        <section>
+            <article>
+                <p> Lorem ipslom</p>
+                <div class="not_card" onclick="style.display='none';">
+                    <div class="not_header">
+                        <button class="close-btn" onclick="style.display='none';">X</button>
+                        <div class="cntnt"> 
+                            <h3>Novidades!</h3>
+                            <p>Confira nossos produtos</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <footer>
+
+        </footer>
+        <script>
+            function close(){
+                const close = document.getElementById('not_card');
+                if(close.style.display === 'none'){
+                    close.style.display = 'none';
+                }
+            }
+
+            close.addEventListener()
+
+        </script>
+    </body>
+</html>
