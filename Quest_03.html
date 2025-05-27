@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+       <h2> Pokemon </h2>
+       <img id="meupoke" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="vixe"> 
+        <br>
+        <button id="b" type="button" onclick="pokemon(1)">Adiantar +1</button>
+        <br>
+        <button id="a" type="button" onclick="pokemon(0)">Voltar -1</button>
+    
+    <script>
+        function pokemon(sw = 0) {
+        var poke;
+            if(sw == 0){
+                poke = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg";
+            }
+            else if( sw == 1){
+                poke = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/2.svg"
+            }
+            else if( sw == 2){
+                poke = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg";
+            }
+            document.getElementById('meupoke').src = poke;
+            }
+    
+    </script>
+    
+    </body>
+</html>
