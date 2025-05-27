@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        }
+        header{
+            background-color: rgb(29, 27, 27);
+            color: white;
+            padding: 30px;
+        }
+        section{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        nav{
+            float: left;
+            flex: 30%;
+            background-color: rgb(90, 89, 89);
+            padding: 20px;
+            padding-bottom: 100%;
+        }
+
+        article{
+            float: right;
+            flex: 70%;
+            background-color: rgb(164, 163, 163);
+            padding-right:20px;
+        }
+
+        footer{
+            background-color: black;
+            padding: 30px;
+            color: white;
+        }
+
+        @media(max-width: 400px){
+            section{
+            flex-direction: column;
+            }
+            nav, article{
+                width: 100%;
+            }
+       }
+
+    </style>
+
+    </head>
+    <body>
+        <header>
+            <h1> Header </h1>
+        </header>
+        
+    <section>
+            <article>
+                    <nav>
+                        <h2> Side menu </h2>
+                        <ul>
+                            <li>
+                                <a href="#1"> Primeiro item</a>
+                            </li>
+                            <li>
+                                <a href="#2"> Segundo item</a>
+                            </li>
+                            <li>
+                                <a href="#3"> Terceiro item</a>
+                            </li>
+                            <li>
+                                <a href="#4"> Quarto item</a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                <h2> Content </h2>
+                <h4 id="1"> 1º: Pater noster, qui es in caelis: sanctificetur nomen tuum; adveniat regnum tuum; fiat voluntas tua, sicut in caelo et in terra. 
+
+    Panem nostrum quotidianum da nobis hodie, et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris; et ne nos inducas in tentationem; sed libera nos a malo.</h4>
+                    <img src="https://imgs.search.brave.com/gOxqcqAV8adonXyTCnnh0jJLVE46gUF3C26AKapy8KI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi8zLzNiL1Nw/YXNfdnNlZGVyemhp/dGVsX3NpbmF5XyUy/OGNyb3BwZWQxJTI5/LmpwZy81MTJweC1T/cGFzX3ZzZWRlcnpo/aXRlbF9zaW5heV8l/Mjhjcm9wcGVkMSUy/OS5qcGc" alt="vixe">
+                <h4 id="2"> 2º: Pater noster, qui es in caelis: sanctificetur nomen tuum; adveniat regnum tuum; fiat voluntas tua, sicut in caelo et in terra. 
+                    <img src="https://imgs.search.brave.com/33H97TVF5NZpc-u_EU54exO2HCupq-owGANx7ZJ0PKg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5zbmwubm8vbWVk/aWEvMzA3MDc4L2Fy/dGljbGVfdG9waW1h/Z2VfSmVzdXMuanBn" alt="vixe">
+    Panem nostrum quotidianum da nobis hodie, et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris; et ne nos inducas in tentationem; sed libera nos a malo.</h4>
+
+                <h4 id="3"> 3º: Pater noster, qui es in caelis: sanctificetur nomen tuum; adveniat regnum tuum; fiat voluntas tua, sicut in caelo et in terra. 
+
+    Panem nostrum quotidianum da nobis hodie, et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris; et ne nos inducas in tentationem; sed libera nos a malo.</h4>
+                    <img src="https://imgs.search.brave.com/eSdh0hoHrV6vrdBpkoJr61BHcE2E3T8_W9JXxVXOnKs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5zbmwubm8vbWVk/aWEvMjM2ODYvc3Rh/bmRhcmRfY29tcHJl/c3NlZF9TYW5kcm9f/Qm90dGljZWxsaV8t/X1RoZV9WaXJnaW5f/YW5kX0NoaWxkX19U/aGVfTWFkb25uYV9v/Zl90aGVfQm9va19f/LV9Hb29nbGVfQXJ0/X1Byb2plY3QuanBn" alt="vixe">
+                <h4 id="4"> 4º: Pater noster, qui es in caelis: sanctificetur nomen tuum; adveniat regnum tuum; fiat voluntas tua, sicut in caelo et in terra. 
+
+    Panem nostrum quotidianum da nobis hodie, et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris; et ne nos inducas in tentationem; sed libera nos a malo.</h4>
+            
+                    <img src="https://imgs.search.brave.com/sB8PgKYqqA7MHwhl3d1SSR9Z9a4-cziXsMaXIe3BSos/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy82/LzY3L0dhdWRlbnpp/b0ZlcnJhcmlfU3Rv/cmllQ3Jpc3RvX1Zh/cmFsbG8yLmpwZw" alt="vixe">
+        </article>
+    </section>
+
+        <footer>
+            <h2>Footer</h2>
+            <p> arthuroares@alu.ufc.br</p>
+            <p> 2025.1</p>
+            <p> todos os direitos reservados</p>
+        </footer>
+    </body>
+</html>
